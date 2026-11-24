@@ -73,7 +73,7 @@ function Contact() {
 
               <div className="contact-whatsapp-info">
                 <span>WhatsApp</span>
-                <strong>+20 120 085 4879</strong>
+                <strong>+20 120 085 4878</strong>
               </div>
 
               <ArrowUpRight
