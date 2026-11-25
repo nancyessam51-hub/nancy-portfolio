@@ -16,7 +16,7 @@ import './styles/experience.css';
 import './styles/contact.css';
 import './styles/prime-phone.css';
 import './styles/real-estate.css';
-
+import './styles/ai-interior.css';
 ReactDOM.createRoot(
   document.getElementById('root')!
 ).render(

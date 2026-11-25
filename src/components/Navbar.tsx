@@ -4,11 +4,11 @@ import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
+  { label: 'Home', href: '/#home' },
+  { label: 'About', href: '/#about' },
+  { label: 'Skills', href: '/#skills' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'Experience', href: '/#experience' },
 ];
 
 function Navbar() {
@@ -20,7 +20,7 @@ function Navbar() {
     <header className="navbar">
       <div className="container navbar-container">
 
-        <a href="#home" className="navbar-logo" onClick={closeMenu}>
+        <a href="/#home" className="navbar-logo" onClick={closeMenu}>
           N<span>.</span>
         </a>
 
@@ -32,7 +32,7 @@ function Navbar() {
           ))}
         </nav>
 
-        <a href="#contact" className="navbar-contact">
+        <a href="/#contact" className="navbar-contact">
           Let's Talk
           <ArrowUpRight size={16} />
         </a>
@@ -65,7 +65,7 @@ function Navbar() {
                 </a>
               ))}
 
-              <a href="#contact" onClick={closeMenu}>
+              <a href="/#contact" onClick={closeMenu}>
                 Let's Talk <ArrowUpRight size={16} />
               </a>
             </motion.nav>

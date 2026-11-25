@@ -13,6 +13,7 @@ import Contact from './sections/Contact';
 
 import PrimePhone from './pages/PrimePhone';
 import RealEstate from './pages/RealEstate';
+import AIInterior from './pages/AIInterior';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -58,19 +59,35 @@ function RealEstatePage() {
   );
 }
 
+function AIInteriorPage() {
+  return (
+    <>
+      <Navbar />
+      <AIInterior />
+    </>
+  );
+}
+
 function App() {
   return (
     <>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
+
         <Route
           path="/projects/prime-phone"
           element={<PrimePhonePage />}
         />
+
         <Route
           path="/projects/real-estate"
           element={<RealEstatePage />}
+        />
+
+        <Route
+          path="/projects/ai-interior"
+          element={<AIInteriorPage />}
         />
       </Routes>
     </>

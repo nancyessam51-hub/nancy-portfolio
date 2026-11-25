@@ -43,8 +43,8 @@ const projects = [
     icon: Sofa,
     status: 'Completed',
     comingSoon: false,
-    image: undefined,
-    path: undefined,
+    image: '/images/ai-interior/Dashboard.png',
+    path: '/projects/ai-interior',
   },
   {
     title: 'Coming Soon',
