@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'motion/react';
 
 const navLinks = [
   { label: 'Home', href: '/#home' },
-  { label: 'About', href: '/#about' },
+  { label: 'About Me', href: '/#about' },
   { label: 'Skills', href: '/#skills' },
   { label: 'Projects', href: '/#projects' },
   { label: 'Experience', href: '/#experience' },
@@ -21,7 +21,7 @@ function Navbar() {
       <div className="container navbar-container">
 
         <a href="/#home" className="navbar-logo" onClick={closeMenu}>
-          N<span>.</span>
+          Nancy Essam<span>.</span>
         </a>
 
         <nav className="desktop-nav">
